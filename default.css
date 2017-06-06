@@ -1,0 +1,452 @@
+	html, body
+	{
+		
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #FFF;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #000000;
+	}
+	
+	
+	h1, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #8dc63f;
+	}
+	
+	
+		h1, h2, h3
+	{
+		padding-top:20px
+		margin-top: 0;
+		padding: 0;
+		color: #8dc63f;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+		color: #8dc63f;
+	}
+	
+	a
+	{
+		color: #8dc63f;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: auto;
+		width: 1200px;
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 1em 2em 1em 2em;
+		background: #8dc63f;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+	}
+		
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 384px;
+		text-align: center;
+	}
+
+	.boxA h2,
+	.boxB h2,
+	.boxC h2
+	{
+		margin-bottom: 10px;
+		font-weight: 600;
+		font-size: 1.6em;
+	}
+
+	.boxA p,
+	.boxB p,
+	.boxC p
+	{
+		padding: 0em 1.5em;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: fixed;
+		background:#ffffff;
+		
+		width:100%;
+		height:10%;
+
+		z-index:1;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top:20%;
+		padding-left: 5%;
+	}
+	
+	#logo h1
+	{
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #8dc63f;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		
+		top:35%;
+		right:0;
+		padding-right: 5%;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+		#menu li:before
+		{
+			content: "//";
+			padding: 1em 1.5em;
+			font-weight: 700;
+			color: rgba(0,0,0,.6);
+		}
+	
+	#menu li a, #menu li span
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1em;
+		color: rgba(0,0,0,.4);
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: rgba(0,0,0,.6);
+	}
+	
+	#menu .current_page_item a
+	{
+		color: rgba(0,0,0,.8);
+	}
+	
+	#menu .icon
+	{
+	}
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		position: relative;
+		overflow: hidden;
+		padding-top: 30px;
+		
+		padding-bottom: 20px;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		
+		overflow: hidden;
+		padding-top: 10px;
+		border-top: 1px solid rgba(0,0,0,0.1);
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(0,0,0,0.6);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(0,0,0,1);
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured
+	{
+		padding-bottom:20px;
+		overflow: hidden;
+		padding-top: 30px;
+		border-top: 1px solid rgba(0,0,0,0.1);
+	}
+	
+	#featured .align-left
+	{
+		float: left;
+		width: 384px;
+		padding-top: 1em;
+		text-align: center;
+	
+	}
+	
+	#featured .fa
+	{
+		font-size: 14em;
+		color: #8dc63f;
+	}
+
+	#featured .align-right
+	{
+		float: right;
+		width: 792px;
+		font-size: 1.4em;
+	}
+
+
+	.box
+	{
+		
+		
+		
+	}
+	
+	.box span
+	{
+		margin: 0;
+		padding: 0;
+		background: #8dc63f;
+		display: block;
+		line-height: 3em;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+/*******************************************
+*************slider show 
+********************************************/
+	
+	
+.slider {
+  
+  width: 1300px;
+  height: 550px;
+  margin: 20px auto;
+  position: relative;
+  
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(pics/pic03.jpeg)no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  background: url(pics/pic02.jpeg)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url(pics/pic01.jpeg)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+.slider:hover div {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
+	
