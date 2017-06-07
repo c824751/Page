@@ -26,7 +26,7 @@
 	
 		h1, h2, h3
 	{
-		padding-top:20px
+		
 		margin-top: 0;
 		padding: 0;
 		color: #8dc63f;
@@ -67,6 +67,7 @@
 	{
 		overflow: hidden;
 		margin: auto;
+		height:90%;
 		width: 1200px;
 	}
 	
@@ -137,6 +138,15 @@
 /*********************************************************************************/
 /* 3-column                                                                      */
 /*********************************************************************************/
+
+	#box
+	{
+		padding-top: 80px;
+
+		overflow: hidden;
+		border-top: 1px solid rgba(0,0,0,0.1);
+	}
+
 
 	.boxA,
 	.boxB,
@@ -217,7 +227,7 @@
 	#menu
 	{
 		position: absolute;
-		
+		margin:center;
 		top:35%;
 		right:0;
 		padding-right: 5%;
@@ -275,8 +285,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		padding-top: 30px;
-		
+		padding-top: 40px;
 		padding-bottom: 20px;
 	}
 
@@ -332,18 +341,18 @@
 	}
 
 /*********************************************************************************/
-/* Featured                                                                      */
+/* about                                                                      */
 /*********************************************************************************/
 
-	#featured
+	#about
 	{
-		padding-bottom:20px;
+		padding-top: 80px;
+
 		overflow: hidden;
-		padding-top: 30px;
 		border-top: 1px solid rgba(0,0,0,0.1);
 	}
 	
-	#featured .align-left
+	#about .align-left
 	{
 		float: left;
 		width: 384px;
@@ -352,13 +361,13 @@
 	
 	}
 	
-	#featured .fa
+	#about .fa
 	{
 		font-size: 14em;
 		color: #8dc63f;
 	}
 
-	#featured .align-right
+	#about .align-right
 	{
 		float: right;
 		width: 792px;
@@ -387,6 +396,18 @@
 		color: #FFF;
 	}
 
+	
+/*******************************************
+*************content 
+********************************************/
+	
+	
+	#content
+	{
+		padding-top: 80px;
+		overflow: hidden;
+		border-top: 1px solid rgba(0,0,0,0.1);
+	}
 /*******************************************
 *************slider show 
 ********************************************/
